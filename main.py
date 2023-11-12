@@ -7,7 +7,7 @@ import time
 import os
 import threading
 
-bot_token = os.environ.get("TOKEN", "") 
+bot_token = os.environ.get("TOKEN", "f") 
 api_hash = os.environ.get("HASH", "") 
 api_id = os.environ.get("ID", "")
 ss = os.environ.get("STRING", "")
