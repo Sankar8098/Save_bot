@@ -10,7 +10,7 @@ import threading
 bot_token = os.environ.get("TOKEN", "5682083705:AAHHEc78t-XJUKPMba4CIRc4C1by-GH9lxE") 
 api_hash = os.environ.get("HASH", "a69d0340a520c1913c517bea143a3de7") 
 api_id = os.environ.get("ID", "29409646")
-ss = os.environ.get("STRING", "AQHAwW4AMoDjbdUqKkBCEwg8Dcrn9ShRffg3FDV0_nogYHlHH0pu-Q859e1-YfDzmc5VGGbEk9RqSqEV143wP4NsnsXe3bsVgLki3NbvvpfwU9_SHxupot5AXH050oxpH76R3b2Y6-D-RcLZaDMwpiDM6htEHAlI1xDit9ew3nnsFbGdeKwwTnYVA1P_GdIP3yEvvlR1hkEvFkvKyVSAoUkoElBHHLyw_vHA4dtGgCAt9IZbdWdG5qUQ2PHWttBcs3otU5DTw6Pk_tuE80oDjxAj8yOaBYPETX0Ts6nTJSmLV2szo7uNVK-g5a0Rhvuez_hGxQdQ1MSpZQ_JRKT722Qw7WIojAAAAAFerw5dAA")
+ss = os.environ.get("STRING", "AQHAwW4AMoDjqKkBCEwg8Dcrn9ShRffg3FDV0_nogYHlHH0pu-Q859e1-YfDzmc5VGGbEk9RqSqEV143wP4NsnsXe3bsVgLki3NbvvpfwU9_SHxupot5AXH050oxpH76R3b2Y6-D-RcLZaDMwpiDM6htEHAlI1xDit9ew3nnsFbGdeKwwTnYVA1P_GdIP3yEvvlR1hkEvFkvKyVSAoUkoElBHHLyw_vHA4dtGgCAt9IZbdWdG5qUQ2PHWttBcs3otU5DTw6Pk_tuE80oDjxAj8yOaBYPETX0Ts6nTJSmLV2szo7uNVK-g5a0Rhvuez_hGxQdQ1MSpZQ_JRKT722Qw7WIojAAAAAFerw5dAA")
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
